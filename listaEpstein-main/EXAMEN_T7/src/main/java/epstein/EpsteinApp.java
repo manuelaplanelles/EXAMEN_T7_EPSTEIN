@@ -29,25 +29,25 @@ public class EpsteinApp {
     public static void nuevoFamoso(){
         System.out.println("Insertar famoso...");
         System.out.println("Nombre: ");
-        String nombre= teclado.nextLine();
+        String nombre = teclado.nextLine();
         System.out.println("Pais: ");
-        String pais= teclado.nextLine();
+        String pais = teclado.nextLine();
         System.out.println("Profesión: ");
-        String profesion= teclado.nextLine();
+        String profesion = teclado.nextLine();
         System.out.println("Edad: ");
         int edad = teclado.nextInt();
 
-        listaEpstein.add(new Famoso(nombre, pais,profesion,edad));
+        listaEpstein.add(new Famoso(nombre,pais,profesion,edad));
         System.out.println("Famoso insertado.");
     }
     public static void buscarFamoso(){
         System.out.println("Buscando famoso...");
         System.out.println("Nombre: ");
-        String nombre= teclado.nextLine();
+        String nombre = teclado.nextLine();
         System.out.println("Pais: ");
-        String pais= teclado.nextLine();
+        String pais = teclado.nextLine();
         System.out.println("Profesión: ");
-        String profesion= teclado.nextLine();
+        String profesion = teclado.nextLine();
         System.out.println("Edad: ");
         int edad = teclado.nextInt();
         Famoso buscar =new Famoso(nombre,pais,profesion,edad);
